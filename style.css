@@ -3,16 +3,22 @@ body {
   width: 31.25rem;
   margin: auto;
   background-image: url(sfondo.png);
+  font-family: futura;
+}
+
+hr {
+  background-color: white;
 }
 /* HEADER */
 
 header {
+  box-shadow: 20px 20px 20px grey;
   text-align: center;
   height: 23rem;
   background: rgb(12, 115, 136);
   background: linear-gradient(
     355deg,
-    rgba(12, 115, 136, 1) 8%,
+    rgba(12, 115, 136, 1) 20%,
     rgba(0, 158, 196, 1) 100%
   );
 }
@@ -37,6 +43,10 @@ aside {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+iframe {
+  border-radius: 20px;
+}
+
 /* TABELLE */
 
 table {
@@ -45,6 +55,13 @@ table {
 
 th {
   background-color: #3d6dd9;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 /* FORM */
